@@ -5,6 +5,9 @@ Not maintained anymore.
 This project have some interesting idea there. Make UI and API testing
 Annotation based.
 
+This tools was built two years ago. It was a interesting journey to build it.
+It opened a window to me for how to absorb opensource codes, compose these codes
+then try to build something useful.
 
 ## 更新日志
 
