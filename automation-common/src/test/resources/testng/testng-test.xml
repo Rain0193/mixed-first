@@ -1,0 +1,20 @@
+<suite name="测试用例集测试">
+    <listeners>
+        <listener class-name="io.ift.automation.listener.testng.SimpleWebDriverScreenShotTestListener"/>
+    </listeners>
+    <suite-files>
+        <suite-file path="testng-test1.xml"/>
+        <suite-file path="testng-test_sample.xml"></suite-file>
+    </suite-files>
+    <test verbose="1" name="dooioo-automation">
+        <classes>
+            <class name="io.ift.automation.commonflows.DooiooLoginHelperTest"></class>
+            <class name="io.ift.automation.testscaffold.TestActionTest"/>
+            <class name="io.ift.automation.testscaffold.WhereTest"/>
+            <class name="io.ift.automation.drivers.DriverFactoryTest2"/>
+            <class name="io.ift.automation.drivers.DriverFactoryTest"/>
+            <class name="io.ift.automation.drivers.BrowserTypeTest"/>
+            <class name="io.ift.automation.drivers.WebDriverModeTest"/>
+        </classes>
+    </test>
+</suite>

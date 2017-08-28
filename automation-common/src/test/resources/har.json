@@ -1,0 +1,2452 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2015-11-23T10:29:14.385Z",
+        "time": 11.065999991842546,
+        "request": {
+          "method": "GET",
+          "url": "http://dui.dooioo.org/public/images/bg_tipsArrow.gif",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "dui.dooioo.org"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://dui.dooioo.org/public/css/main.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "ui=81207644; token=1448274223891; companyId=1; ubt_load_interval_b=1448274540837; ubt_load_interval_c=1448274540837; ubta=232814775.411813191.1448243313609.1448274540000.1448274541062.34; ubtb=232814775.411813191.1448274541064.56B096224AB99F4E2711390426A364AF; ubtc=232814775.411813191.1448274541064.56B096224AB99F4E2711390426A364AF; ubtd=34"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ui",
+              "value": "81207644",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "token",
+              "value": "1448274223891",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "companyId",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_b",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_c",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274540000.1448274541062.34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtb",
+              "value": "232814775.411813191.1448274541064.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtc",
+              "value": "232814775.411813191.1448274541064.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtd",
+              "value": "34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 803,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:13 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 24 Apr 2015 02:43:23 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Tengine"
+            },
+            {
+              "name": "ETag",
+              "value": "\"5539adcb-7c\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "124"
+            },
+            {
+              "name": "Expires",
+              "value": "Tue, 24 Nov 2015 10:29:13 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 124,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 334,
+          "bodySize": 124,
+          "_transferSize": 458
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.13399999868125,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.14099999680184006,
+          "wait": 6.494000001112,
+          "receive": 1.2969999952474556,
+          "ssl": -1
+        },
+        "connection": "267245"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:15.969Z",
+        "time": 29.704999993555248,
+        "request": {
+          "method": "GET",
+          "url": "http://logment.dooioo.com/api/ubt?ubtty=click&ubtx=980&ubty=317&ubtnm=A&ubtdp=A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV&ubtdc=%E7%BC%96%E8%BE%91&ubthf=%23%23%23&ubta=232814775.411813191.1448243313609.1448274541062.1448274555965.34&ubtb=411813191.56B096224AB99F4E2711390426A364AF&ubtd=34&ubte=1C3CA849A92005FC0C922947CA3163BE&ubthn=gongzi.dooioo.org&ubtr=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F&ubtpltfm=pc&ubtdt=%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6&ubtuid=81452&ubtcs=UTF-8&ubthid=411813191&ubtp=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819&ubtsc=24&ubtsr=1280*800&ubtul=zh-CN&ubtwv=1.0.2v&ubtrqstid=d9daf3b1075e4a2dbc862b731227c358",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "logment.dooioo.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ubtty",
+              "value": "click"
+            },
+            {
+              "name": "ubtx",
+              "value": "980"
+            },
+            {
+              "name": "ubty",
+              "value": "317"
+            },
+            {
+              "name": "ubtnm",
+              "value": "A"
+            },
+            {
+              "name": "ubtdp",
+              "value": "A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV"
+            },
+            {
+              "name": "ubtdc",
+              "value": "%E7%BC%96%E8%BE%91"
+            },
+            {
+              "name": "ubthf",
+              "value": "%23%23%23"
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274541062.1448274555965.34"
+            },
+            {
+              "name": "ubtb",
+              "value": "411813191.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "ubtd",
+              "value": "34"
+            },
+            {
+              "name": "ubte",
+              "value": "1C3CA849A92005FC0C922947CA3163BE"
+            },
+            {
+              "name": "ubthn",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "ubtr",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F"
+            },
+            {
+              "name": "ubtpltfm",
+              "value": "pc"
+            },
+            {
+              "name": "ubtdt",
+              "value": "%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6"
+            },
+            {
+              "name": "ubtuid",
+              "value": "81452"
+            },
+            {
+              "name": "ubtcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "ubthid",
+              "value": "411813191"
+            },
+            {
+              "name": "ubtp",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819"
+            },
+            {
+              "name": "ubtsc",
+              "value": "24"
+            },
+            {
+              "name": "ubtsr",
+              "value": "1280*800"
+            },
+            {
+              "name": "ubtul",
+              "value": "zh-CN"
+            },
+            {
+              "name": "ubtwv",
+              "value": "1.0.2v"
+            },
+            {
+              "name": "ubtrqstid",
+              "value": "d9daf3b1075e4a2dbc862b731227c358"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1168,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:14 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.7.7"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 146,
+          "bodySize": 35,
+          "_transferSize": 181
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.02200000057928,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.06799999391660005,
+          "wait": 25.90900000359402,
+          "receive": 1.7059999954653478,
+          "ssl": -1
+        },
+        "connection": "266106"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:15.973Z",
+        "time": 15.828999996301718,
+        "request": {
+          "method": "GET",
+          "url": "http://dui.dooioo.org/public/images/sprites_main.gif",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://dui.dooioo.org/public/css/main.css"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 01:48:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 24 Apr 2015 02:43:23 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Tengine"
+            },
+            {
+              "name": "ETag",
+              "value": "\"5539adcb-27b5\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "10165"
+            },
+            {
+              "name": "Expires",
+              "value": "Tue, 24 Nov 2015 01:48:34 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 10165,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 14.4359999976587,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.3679999936138998,
+          "receive": 1.0250000050291188,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:17.837Z",
+        "time": 10.809999992488883,
+        "request": {
+          "method": "GET",
+          "url": "http://logment.dooioo.com/api/ubt?ubtty=click&ubtx=826&ubty=319&ubtnm=INPUT&ubtdp=INPUT%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV&ubtdc=5500.00&ubtsd=1868&ubta=232814775.411813191.1448243313609.1448274555965.1448274557832.34&ubtb=411813191.56B096224AB99F4E2711390426A364AF&ubtd=34&ubte=1C3CA849A92005FC0C922947CA3163BE&ubthn=gongzi.dooioo.org&ubtr=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F&ubtpltfm=pc&ubtdt=%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6&ubtuid=81452&ubtcs=UTF-8&ubthid=411813191&ubtp=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819&ubtsc=24&ubtsr=1280*800&ubtul=zh-CN&ubtwv=1.0.2v&ubtrqstid=d9daf3b1075e4a2dbc862b731227c358",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "logment.dooioo.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ubtty",
+              "value": "click"
+            },
+            {
+              "name": "ubtx",
+              "value": "826"
+            },
+            {
+              "name": "ubty",
+              "value": "319"
+            },
+            {
+              "name": "ubtnm",
+              "value": "INPUT"
+            },
+            {
+              "name": "ubtdp",
+              "value": "INPUT%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV"
+            },
+            {
+              "name": "ubtdc",
+              "value": "5500.00"
+            },
+            {
+              "name": "ubtsd",
+              "value": "1868"
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274555965.1448274557832.34"
+            },
+            {
+              "name": "ubtb",
+              "value": "411813191.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "ubtd",
+              "value": "34"
+            },
+            {
+              "name": "ubte",
+              "value": "1C3CA849A92005FC0C922947CA3163BE"
+            },
+            {
+              "name": "ubthn",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "ubtr",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F"
+            },
+            {
+              "name": "ubtpltfm",
+              "value": "pc"
+            },
+            {
+              "name": "ubtdt",
+              "value": "%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6"
+            },
+            {
+              "name": "ubtuid",
+              "value": "81452"
+            },
+            {
+              "name": "ubtcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "ubthid",
+              "value": "411813191"
+            },
+            {
+              "name": "ubtp",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819"
+            },
+            {
+              "name": "ubtsc",
+              "value": "24"
+            },
+            {
+              "name": "ubtsr",
+              "value": "1280*800"
+            },
+            {
+              "name": "ubtul",
+              "value": "zh-CN"
+            },
+            {
+              "name": "ubtwv",
+              "value": "1.0.2v"
+            },
+            {
+              "name": "ubtrqstid",
+              "value": "d9daf3b1075e4a2dbc862b731227c358"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1160,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:16 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.7.7"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 146,
+          "bodySize": 35,
+          "_transferSize": 181
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.61699999100529,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.13800000306218996,
+          "wait": 6.9479999947361595,
+          "receive": 1.1070000036852434,
+          "ssl": -1
+        },
+        "connection": "266106"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:21.846Z",
+        "time": 9.706999990157783,
+        "request": {
+          "method": "GET",
+          "url": "http://logment.dooioo.com/api/ubt?ubtty=click&ubtx=983&ubty=324&ubtnm=A&ubtdp=A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV&ubtdc=%E4%BF%9D%E5%AD%98&ubthf=%23%23%23&ubtsd=4008&ubta=232814775.411813191.1448243313609.1448274557832.1448274561840.34&ubtb=411813191.56B096224AB99F4E2711390426A364AF&ubtd=34&ubte=1C3CA849A92005FC0C922947CA3163BE&ubthn=gongzi.dooioo.org&ubtr=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F&ubtpltfm=pc&ubtdt=%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6&ubtuid=81452&ubtcs=UTF-8&ubthid=411813191&ubtp=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819&ubtsc=24&ubtsr=1280*800&ubtul=zh-CN&ubtwv=1.0.2v&ubtrqstid=d9daf3b1075e4a2dbc862b731227c358",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "logment.dooioo.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ubtty",
+              "value": "click"
+            },
+            {
+              "name": "ubtx",
+              "value": "983"
+            },
+            {
+              "name": "ubty",
+              "value": "324"
+            },
+            {
+              "name": "ubtnm",
+              "value": "A"
+            },
+            {
+              "name": "ubtdp",
+              "value": "A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV"
+            },
+            {
+              "name": "ubtdc",
+              "value": "%E4%BF%9D%E5%AD%98"
+            },
+            {
+              "name": "ubthf",
+              "value": "%23%23%23"
+            },
+            {
+              "name": "ubtsd",
+              "value": "4008"
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274557832.1448274561840.34"
+            },
+            {
+              "name": "ubtb",
+              "value": "411813191.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "ubtd",
+              "value": "34"
+            },
+            {
+              "name": "ubte",
+              "value": "1C3CA849A92005FC0C922947CA3163BE"
+            },
+            {
+              "name": "ubthn",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "ubtr",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F"
+            },
+            {
+              "name": "ubtpltfm",
+              "value": "pc"
+            },
+            {
+              "name": "ubtdt",
+              "value": "%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6"
+            },
+            {
+              "name": "ubtuid",
+              "value": "81452"
+            },
+            {
+              "name": "ubtcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "ubthid",
+              "value": "411813191"
+            },
+            {
+              "name": "ubtp",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819"
+            },
+            {
+              "name": "ubtsc",
+              "value": "24"
+            },
+            {
+              "name": "ubtsr",
+              "value": "1280*800"
+            },
+            {
+              "name": "ubtul",
+              "value": "zh-CN"
+            },
+            {
+              "name": "ubtwv",
+              "value": "1.0.2v"
+            },
+            {
+              "name": "ubtrqstid",
+              "value": "d9daf3b1075e4a2dbc862b731227c358"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1179,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:20 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.7.7"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 146,
+          "bodySize": 35,
+          "_transferSize": 181
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.28299999434967,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.07100000220816005,
+          "wait": 6.40499999281019,
+          "receive": 0.9480000007897633,
+          "ssl": -1
+        },
+        "connection": "266106"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:21.853Z",
+        "time": 693.2739999901969,
+        "request": {
+          "method": "POST",
+          "url": "http://gongzi.dooioo.org/salary/updateBaseInfo",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "requestid=d9daf3b1075e4a2dbc862b731227c358; ui=81207644; token=1448274223891; companyId=1; JSESSIONID=68308973E1E8C58D559C70217E881413; ubt_load_interval_b=1448274540837; ubt_load_interval_c=1448274540837; requestid=96774c4d2b48467bba7de014f1a03834; ubtd=34; ubta=232814775.411813191.1448243313609.1448274557832.1448274561840.34; ubtb=232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF; ubtc=232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Origin",
+              "value": "http://gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json, text/javascript, */*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            },
+            {
+              "name": "Content-Length",
+              "value": "62"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "d9daf3b1075e4a2dbc862b731227c358",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ui",
+              "value": "81207644",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "token",
+              "value": "1448274223891",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "companyId",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "JSESSIONID",
+              "value": "68308973E1E8C58D559C70217E881413",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_b",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_c",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "requestid",
+              "value": "96774c4d2b48467bba7de014f1a03834",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtd",
+              "value": "34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274557832.1448274561840.34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtb",
+              "value": "232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtc",
+              "value": "232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1102,
+          "bodySize": 62,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "usercode=140809&year=2015&month=10&basewage=5501.00&allowance=",
+            "params": [
+              {
+                "name": "usercode",
+                "value": "140809"
+              },
+              {
+                "name": "year",
+                "value": "2015"
+              },
+              {
+                "name": "month",
+                "value": "10"
+              },
+              {
+                "name": "basewage",
+                "value": "5501.00"
+              },
+              {
+                "name": "allowance",
+                "value": ""
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Set-Cookie",
+              "value": "requestid=7d35fc86ca884123ade492f2abb3dbe6"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:21 GMT"
+            },
+            {
+              "name": "requestid",
+              "value": "7d35fc86ca884123ade492f2abb3dbe6"
+            },
+            {
+              "name": "Server",
+              "value": "Tengine"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1971"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/json;charset=utf-8"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "7d35fc86ca884123ade492f2abb3dbe6",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 1971,
+            "mimeType": "text/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 259,
+          "bodySize": 1971,
+          "_transferSize": 2230
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 5.25699999707285,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.13299999409356023,
+          "wait": 685.9240000048886,
+          "receive": 1.9599999941418673,
+          "ssl": -1
+        },
+        "connection": "267268"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:22.552Z",
+        "time": 183.69599999277852,
+        "request": {
+          "method": "POST",
+          "url": "http://gongzi.dooioo.org/salary/formatCheck",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "requestid=7d35fc86ca884123ade492f2abb3dbe6; ui=81207644; token=1448274223891; companyId=1; JSESSIONID=68308973E1E8C58D559C70217E881413; ubt_load_interval_b=1448274540837; ubt_load_interval_c=1448274540837; requestid=96774c4d2b48467bba7de014f1a03834; ubtd=34; ubta=232814775.411813191.1448243313609.1448274557832.1448274561840.34; ubtb=232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF; ubtc=232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Origin",
+              "value": "http://gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json, text/javascript, */*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            },
+            {
+              "name": "Content-Length",
+              "value": "30"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "7d35fc86ca884123ade492f2abb3dbe6",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ui",
+              "value": "81207644",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "token",
+              "value": "1448274223891",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "companyId",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "JSESSIONID",
+              "value": "68308973E1E8C58D559C70217E881413",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_b",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_c",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "requestid",
+              "value": "96774c4d2b48467bba7de014f1a03834",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtd",
+              "value": "34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274557832.1448274561840.34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtb",
+              "value": "232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtc",
+              "value": "232814775.411813191.1448274561841.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1099,
+          "bodySize": 30,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "orgid=26819&year=2015&month=10",
+            "params": [
+              {
+                "name": "orgid",
+                "value": "26819"
+              },
+              {
+                "name": "year",
+                "value": "2015"
+              },
+              {
+                "name": "month",
+                "value": "10"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Set-Cookie",
+              "value": "requestid=bc8630fecec8412bbd7f86558abb7939"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:21 GMT"
+            },
+            {
+              "name": "requestid",
+              "value": "bc8630fecec8412bbd7f86558abb7939"
+            },
+            {
+              "name": "Server",
+              "value": "Tengine"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "90"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/json;charset=utf-8"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "bc8630fecec8412bbd7f86558abb7939",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 90,
+            "mimeType": "text/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 257,
+          "bodySize": 90,
+          "_transferSize": 347
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 5.98499999614432,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.11799999629147973,
+          "wait": 175.9250000031902,
+          "receive": 1.6679999971525206,
+          "ssl": -1
+        },
+        "connection": "267268"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:28.573Z",
+        "time": 11.108999999123625,
+        "request": {
+          "method": "GET",
+          "url": "http://logment.dooioo.com/api/ubt?ubtty=click&ubtx=978&ubty=319&ubtnm=A&ubtdp=A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV&ubtdc=%E7%BC%96%E8%BE%91&ubthf=%23%23%23&ubtsd=6728&ubta=232814775.411813191.1448243313609.1448274561840.1448274568568.34&ubtb=411813191.56B096224AB99F4E2711390426A364AF&ubtd=34&ubte=1C3CA849A92005FC0C922947CA3163BE&ubthn=gongzi.dooioo.org&ubtr=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F&ubtpltfm=pc&ubtdt=%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6&ubtuid=81452&ubtcs=UTF-8&ubthid=411813191&ubtp=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819&ubtsc=24&ubtsr=1280*800&ubtul=zh-CN&ubtwv=1.0.2v&ubtrqstid=bc8630fecec8412bbd7f86558abb7939",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "logment.dooioo.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ubtty",
+              "value": "click"
+            },
+            {
+              "name": "ubtx",
+              "value": "978"
+            },
+            {
+              "name": "ubty",
+              "value": "319"
+            },
+            {
+              "name": "ubtnm",
+              "value": "A"
+            },
+            {
+              "name": "ubtdp",
+              "value": "A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV"
+            },
+            {
+              "name": "ubtdc",
+              "value": "%E7%BC%96%E8%BE%91"
+            },
+            {
+              "name": "ubthf",
+              "value": "%23%23%23"
+            },
+            {
+              "name": "ubtsd",
+              "value": "6728"
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274561840.1448274568568.34"
+            },
+            {
+              "name": "ubtb",
+              "value": "411813191.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "ubtd",
+              "value": "34"
+            },
+            {
+              "name": "ubte",
+              "value": "1C3CA849A92005FC0C922947CA3163BE"
+            },
+            {
+              "name": "ubthn",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "ubtr",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F"
+            },
+            {
+              "name": "ubtpltfm",
+              "value": "pc"
+            },
+            {
+              "name": "ubtdt",
+              "value": "%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6"
+            },
+            {
+              "name": "ubtuid",
+              "value": "81452"
+            },
+            {
+              "name": "ubtcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "ubthid",
+              "value": "411813191"
+            },
+            {
+              "name": "ubtp",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819"
+            },
+            {
+              "name": "ubtsc",
+              "value": "24"
+            },
+            {
+              "name": "ubtsr",
+              "value": "1280*800"
+            },
+            {
+              "name": "ubtul",
+              "value": "zh-CN"
+            },
+            {
+              "name": "ubtwv",
+              "value": "1.0.2v"
+            },
+            {
+              "name": "ubtrqstid",
+              "value": "bc8630fecec8412bbd7f86558abb7939"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1179,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:27 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.7.7"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 146,
+          "bodySize": 35,
+          "_transferSize": 181
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.29799999215174,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.07799999730196028,
+          "wait": 7.773999997880301,
+          "receive": 0.9590000117896249,
+          "ssl": -1
+        },
+        "connection": "266106"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:29.637Z",
+        "time": 10.76900000043679,
+        "request": {
+          "method": "GET",
+          "url": "http://logment.dooioo.com/api/ubt?ubtty=click&ubtx=824&ubty=320&ubtnm=INPUT&ubtdp=INPUT%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV&ubtdc=5501.00&ubtsd=1065&ubta=232814775.411813191.1448243313609.1448274568568.1448274569633.34&ubtb=411813191.56B096224AB99F4E2711390426A364AF&ubtd=34&ubte=1C3CA849A92005FC0C922947CA3163BE&ubthn=gongzi.dooioo.org&ubtr=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F&ubtpltfm=pc&ubtdt=%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6&ubtuid=81452&ubtcs=UTF-8&ubthid=411813191&ubtp=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819&ubtsc=24&ubtsr=1280*800&ubtul=zh-CN&ubtwv=1.0.2v&ubtrqstid=bc8630fecec8412bbd7f86558abb7939",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "logment.dooioo.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ubtty",
+              "value": "click"
+            },
+            {
+              "name": "ubtx",
+              "value": "824"
+            },
+            {
+              "name": "ubty",
+              "value": "320"
+            },
+            {
+              "name": "ubtnm",
+              "value": "INPUT"
+            },
+            {
+              "name": "ubtdp",
+              "value": "INPUT%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV"
+            },
+            {
+              "name": "ubtdc",
+              "value": "5501.00"
+            },
+            {
+              "name": "ubtsd",
+              "value": "1065"
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274568568.1448274569633.34"
+            },
+            {
+              "name": "ubtb",
+              "value": "411813191.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "ubtd",
+              "value": "34"
+            },
+            {
+              "name": "ubte",
+              "value": "1C3CA849A92005FC0C922947CA3163BE"
+            },
+            {
+              "name": "ubthn",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "ubtr",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F"
+            },
+            {
+              "name": "ubtpltfm",
+              "value": "pc"
+            },
+            {
+              "name": "ubtdt",
+              "value": "%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6"
+            },
+            {
+              "name": "ubtuid",
+              "value": "81452"
+            },
+            {
+              "name": "ubtcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "ubthid",
+              "value": "411813191"
+            },
+            {
+              "name": "ubtp",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819"
+            },
+            {
+              "name": "ubtsc",
+              "value": "24"
+            },
+            {
+              "name": "ubtsr",
+              "value": "1280*800"
+            },
+            {
+              "name": "ubtul",
+              "value": "zh-CN"
+            },
+            {
+              "name": "ubtwv",
+              "value": "1.0.2v"
+            },
+            {
+              "name": "ubtrqstid",
+              "value": "bc8630fecec8412bbd7f86558abb7939"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1160,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:28 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.7.7"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 146,
+          "bodySize": 35,
+          "_transferSize": 181
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.78400000045076,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.06799999391660005,
+          "wait": 5.95500000054017,
+          "receive": 0.9620000055292603,
+          "ssl": -1
+        },
+        "connection": "266106"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:31.830Z",
+        "time": 10.062000001198612,
+        "request": {
+          "method": "GET",
+          "url": "http://logment.dooioo.com/api/ubt?ubtty=click&ubtx=979&ubty=325&ubtnm=A&ubtdp=A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV&ubtdc=%E4%BF%9D%E5%AD%98&ubthf=%23%23%23&ubtsd=2192&ubta=232814775.411813191.1448243313609.1448274569633.1448274571825.34&ubtb=411813191.56B096224AB99F4E2711390426A364AF&ubtd=34&ubte=1C3CA849A92005FC0C922947CA3163BE&ubthn=gongzi.dooioo.org&ubtr=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F&ubtpltfm=pc&ubtdt=%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6&ubtuid=81452&ubtcs=UTF-8&ubthid=411813191&ubtp=http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819&ubtsc=24&ubtsr=1280*800&ubtul=zh-CN&ubtwv=1.0.2v&ubtrqstid=bc8630fecec8412bbd7f86558abb7939",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "logment.dooioo.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ubtty",
+              "value": "click"
+            },
+            {
+              "name": "ubtx",
+              "value": "979"
+            },
+            {
+              "name": "ubty",
+              "value": "325"
+            },
+            {
+              "name": "ubtnm",
+              "value": "A"
+            },
+            {
+              "name": "ubtdp",
+              "value": "A%3CTD%3CTR%3CTBODY%3CTABLE%3CDIV%3CDIV"
+            },
+            {
+              "name": "ubtdc",
+              "value": "%E4%BF%9D%E5%AD%98"
+            },
+            {
+              "name": "ubthf",
+              "value": "%23%23%23"
+            },
+            {
+              "name": "ubtsd",
+              "value": "2192"
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274569633.1448274571825.34"
+            },
+            {
+              "name": "ubtb",
+              "value": "411813191.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "ubtd",
+              "value": "34"
+            },
+            {
+              "name": "ubte",
+              "value": "1C3CA849A92005FC0C922947CA3163BE"
+            },
+            {
+              "name": "ubthn",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "ubtr",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2F"
+            },
+            {
+              "name": "ubtpltfm",
+              "value": "pc"
+            },
+            {
+              "name": "ubtdt",
+              "value": "%E5%B7%A5%E8%B5%84%E7%B3%BB%E7%BB%9F-%E4%BA%8B%E5%8A%A1%E4%B8%AD%E5%BF%83-%E9%93%BE%E5%AE%B6"
+            },
+            {
+              "name": "ubtuid",
+              "value": "81452"
+            },
+            {
+              "name": "ubtcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "ubthid",
+              "value": "411813191"
+            },
+            {
+              "name": "ubtp",
+              "value": "http%3A%2F%2Fgongzi.dooioo.org%2Fsalary%2Fbaseinfo%3Fyear%3D2015%26month%3D10%26orgid%3D26819"
+            },
+            {
+              "name": "ubtsc",
+              "value": "24"
+            },
+            {
+              "name": "ubtsr",
+              "value": "1280*800"
+            },
+            {
+              "name": "ubtul",
+              "value": "zh-CN"
+            },
+            {
+              "name": "ubtwv",
+              "value": "1.0.2v"
+            },
+            {
+              "name": "ubtrqstid",
+              "value": "bc8630fecec8412bbd7f86558abb7939"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1179,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:30 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.7.7"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 146,
+          "bodySize": 35,
+          "_transferSize": 181
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.36800000129733,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.09100000897888005,
+          "wait": 6.88799998897594,
+          "receive": 0.7150000019464624,
+          "ssl": -1
+        },
+        "connection": "266106"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:31.840Z",
+        "time": 226.8200000107754,
+        "request": {
+          "method": "POST",
+          "url": "http://gongzi.dooioo.org/salary/updateBaseInfo",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "requestid=bc8630fecec8412bbd7f86558abb7939; ui=81207644; token=1448274223891; companyId=1; JSESSIONID=68308973E1E8C58D559C70217E881413; ubt_load_interval_b=1448274540837; ubt_load_interval_c=1448274540837; requestid=96774c4d2b48467bba7de014f1a03834; ubtd=34; ubta=232814775.411813191.1448243313609.1448274569633.1448274571825.34; ubtb=232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF; ubtc=232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Origin",
+              "value": "http://gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json, text/javascript, */*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            },
+            {
+              "name": "Content-Length",
+              "value": "62"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "bc8630fecec8412bbd7f86558abb7939",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ui",
+              "value": "81207644",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "token",
+              "value": "1448274223891",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "companyId",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "JSESSIONID",
+              "value": "68308973E1E8C58D559C70217E881413",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_b",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_c",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "requestid",
+              "value": "96774c4d2b48467bba7de014f1a03834",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtd",
+              "value": "34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274569633.1448274571825.34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtb",
+              "value": "232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtc",
+              "value": "232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1102,
+          "bodySize": 62,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "usercode=140809&year=2015&month=10&basewage=5500.00&allowance=",
+            "params": [
+              {
+                "name": "usercode",
+                "value": "140809"
+              },
+              {
+                "name": "year",
+                "value": "2015"
+              },
+              {
+                "name": "month",
+                "value": "10"
+              },
+              {
+                "name": "basewage",
+                "value": "5500.00"
+              },
+              {
+                "name": "allowance",
+                "value": ""
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Set-Cookie",
+              "value": "requestid=6c60ec29c7c9412d85650db19cfb8a20"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:30 GMT"
+            },
+            {
+              "name": "requestid",
+              "value": "6c60ec29c7c9412d85650db19cfb8a20"
+            },
+            {
+              "name": "Server",
+              "value": "Tengine"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1971"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/json;charset=utf-8"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "6c60ec29c7c9412d85650db19cfb8a20",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 1971,
+            "mimeType": "text/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 259,
+          "bodySize": 1971,
+          "_transferSize": 2230
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 9.23000001057517,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.12799999967683107,
+          "wait": 211.072999998578,
+          "receive": 6.389000001945391,
+          "ssl": -1
+        },
+        "connection": "267268"
+      },
+      {
+        "startedDateTime": "2015-11-23T10:29:32.074Z",
+        "time": 155.04499999224208,
+        "request": {
+          "method": "POST",
+          "url": "http://gongzi.dooioo.org/salary/formatCheck",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "requestid=6c60ec29c7c9412d85650db19cfb8a20; ui=81207644; token=1448274223891; companyId=1; JSESSIONID=68308973E1E8C58D559C70217E881413; ubt_load_interval_b=1448274540837; ubt_load_interval_c=1448274540837; requestid=96774c4d2b48467bba7de014f1a03834; ubtd=34; ubta=232814775.411813191.1448243313609.1448274569633.1448274571825.34; ubtb=232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF; ubtc=232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF"
+            },
+            {
+              "name": "RA-Sid",
+              "value": "B4A6CD4E-20150304-004024-46e354-c4e480"
+            },
+            {
+              "name": "Origin",
+              "value": "http://gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "gongzi.dooioo.org"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json, text/javascript, */*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://gongzi.dooioo.org/salary/baseinfo?year=2015&month=10&orgid=26819"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "RA-Ver",
+              "value": "3.0.7"
+            },
+            {
+              "name": "Content-Length",
+              "value": "30"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "6c60ec29c7c9412d85650db19cfb8a20",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ui",
+              "value": "81207644",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "token",
+              "value": "1448274223891",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "companyId",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "JSESSIONID",
+              "value": "68308973E1E8C58D559C70217E881413",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_b",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubt_load_interval_c",
+              "value": "1448274540837",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "requestid",
+              "value": "96774c4d2b48467bba7de014f1a03834",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtd",
+              "value": "34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubta",
+              "value": "232814775.411813191.1448243313609.1448274569633.1448274571825.34",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtb",
+              "value": "232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ubtc",
+              "value": "232814775.411813191.1448274571827.56B096224AB99F4E2711390426A364AF",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1099,
+          "bodySize": 30,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "orgid=26819&year=2015&month=10",
+            "params": [
+              {
+                "name": "orgid",
+                "value": "26819"
+              },
+              {
+                "name": "year",
+                "value": "2015"
+              },
+              {
+                "name": "month",
+                "value": "10"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Set-Cookie",
+              "value": "requestid=4dd2d21203af4c0ab96d2b3ed2104d49"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 23 Nov 2015 10:29:31 GMT"
+            },
+            {
+              "name": "requestid",
+              "value": "4dd2d21203af4c0ab96d2b3ed2104d49"
+            },
+            {
+              "name": "Server",
+              "value": "Tengine"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "90"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/json;charset=utf-8"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "requestid",
+              "value": "4dd2d21203af4c0ab96d2b3ed2104d49",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 90,
+            "mimeType": "text/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 257,
+          "bodySize": 90,
+          "_transferSize": 347
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 4.68199999886565,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.16899999172891977,
+          "wait": 149.00300001318143,
+          "receive": 1.190999988466075,
+          "ssl": -1
+        },
+        "connection": "267268"
+      }
+    ]
+  }
+}

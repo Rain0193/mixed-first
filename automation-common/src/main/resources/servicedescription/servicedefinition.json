@@ -1,0 +1,19 @@
+{
+  "queryParameters":["test",
+    "id",
+    "mm"
+  ],
+  "pathParameters":["path1",
+    "path2"
+  ],
+  "headers":{
+    "te":"${loginAt}",
+    "test":"${Cookie}",
+    "te":"${Auth}"
+  }
+,
+"method":"get",
+"resourceURL":"http://10.8.1.105:7070/login",
+"body":"{a:b,c:d}",
+"bodyClass":"com.Domain.automation.apitest.ServiceDescription"
+}

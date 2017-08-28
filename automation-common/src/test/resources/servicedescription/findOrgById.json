@@ -1,0 +1,10 @@
+{
+  "apiDomainName":"openapi",
+  "contentType":"application/json",
+  "headers":{},
+  "method":"GET",
+  "pathParameters":["orgId","company","appCode"],
+  "queryParameters":[],
+  "resourceURL":"/api/v4/oa/findOrgLongName/",
+  "responseSample": ""
+}

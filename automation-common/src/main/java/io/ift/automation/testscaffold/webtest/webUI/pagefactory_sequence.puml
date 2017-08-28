@@ -1,0 +1,10 @@
+@startuml
+HtmlElementLoader ->HtmlElementLoader : createPageObject
+HtmlElementLoader ->HtmlElementLoader: populateElements
+HtmlElementLoader -> Selenium_PageFactory:populateElements
+Selenium_PageFactory->HtmlElementFieldDecorator:initElements
+HtmlElementFieldDecorator->CustomerElementLocatorFactory:decorate
+CustomerElementLocatorFactory -> HtmlElementFieldDecorator:createLocator
+HtmlElementFieldDecorator->HtmlElementsFactory:decorateHtmlElement:decorateHtmlElementList:decorateWebElementList
+HtmlElementsFactory->HtmlElementLoader:createNamedProxyForWebElementList createNamedProxyForWebElement createNamedProxyForWebElement
+@enduml

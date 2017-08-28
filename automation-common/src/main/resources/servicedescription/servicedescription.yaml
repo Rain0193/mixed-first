@@ -1,0 +1,14 @@
+method : "get"
+resourceURL: "http://10.8.1.105:7070/login"
+queryParameter:
+- "test"
+- "id"
+- "mm"
+pathParameter:
+- "path1"
+- "path2"
+headers:
+- "header1": "header1"
+- "header2": "header2"
+body: "{a:b,c:d}"
+bodyClass: com.Domain.automation.testscaffold.apitest.ServiceDescription

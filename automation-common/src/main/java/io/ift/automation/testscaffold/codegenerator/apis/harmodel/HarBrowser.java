@@ -1,0 +1,30 @@
+package io.ift.automation.testscaffold.codegenerator.apis.harmodel;
+
+public class HarBrowser {
+    private String name;
+    private String version;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
+    }
+
+    @Override
+    public String toString() {
+        return "HarBrowser{" +
+                "name='" + name + '\'' +
+                ", version='" + version + '\'' +
+                '}';
+    }
+}

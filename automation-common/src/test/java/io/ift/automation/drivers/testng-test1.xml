@@ -1,0 +1,13 @@
+<suite name="Custom suite" >
+    <listeners>
+        <listener class-name="io.ift.automation.listener.testng.SimpleRetryListener" />
+     <listener class-name="io.ift.automation.listener.testng.SimpleWebDriverScreenShotTestListener"/>
+    </listeners>
+
+    <test verbose="1" name="dooioo-automation">
+        <classes>
+            <class name="io.ift.automation.drivers.DriverFactoryTest_Concurrency">
+            </class>
+        </classes>
+    </test>
+</suite>

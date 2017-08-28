@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Page Factory 模式原理 - 自动化测试</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+
+  
+  <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Page Factory 模式原理";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> 自动化测试</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">主页</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>QuickStart</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/project_structure/">项目结构和配置</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../steps/steps_configuration/">项目结构和配置－步骤</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../properties/properties_intro/">配置文件说明</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../selenium_in_a_wild_way/">WEB页面自动化-SELENIUM管理页面元素</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/webui_automation_quickstart/">WEB页面自动化-开始</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/webui_automation_realexample/">WEB页面自动化-真实用例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/api_testing_qa/">API 自动化测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_defined_employees/">工作流测试之指定审批节点</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_dynamic/">工作流测试之动态审批节点</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>自动化测试模块介绍</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-purpose/">目的</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-framework-impl/">基本模块的作用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/self_defined_elements/">页面自动化-页面元素的使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/element_handler/">页面自动化-页面元素方法查询</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/pageobject_codegenerator/">页面自动化-页面代码生成</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/build_test/">页面自动化-WebTestActionBuilder</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>接口自动化测试</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/web接口测试/">接口测试－WEB接口常见的实现方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/API自动化测试-进阶/">API自动化测试-进阶</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Tips</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../WebTest_Debug/">WebUI Debug</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../find_by_ref/">FindByRef annotation  使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/verification_annotation/">verification 注解使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../jmeter_basic/">JMeter使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/code_style/">JAVA 自动化测试代码规范</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/simple_ui_case/">一个简单测试用例的自动化实例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../database/Database/">数据库操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../testng-xml-configuration/">TestNG 测试XML配置</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../use_own_password/">使用自己的用户名和密码获取万能密码</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../JsonHelper/">JSON处理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../page_object/">Page Object/Page Factory</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../TreeElement/">TreeElement 使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../WebDriverHelper/">添加了Expectation的WebDriver操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../WebDriver操作/">WebDriver原生操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../how_to_write_teststeps/">编写测试步骤的不同方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../repeatable_elements/">重复填写控件使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../StateElementReferneceException/">StateElementReferneceException</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../DateHelper/">DateHelper</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../database_assetion/">数据库验证</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../database_update/">预设条件数据的更新和回滚</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../testng_faq/">TestNG测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../simplest_testngreport/">TestNG 定制报表简单原理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Page Factory 模式原理</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#selenium-page-factory">Selenium Page Factory 模式分析</a></li>
+                
+                    <li><a class="toctree-l4" href="#page-factory">Page Factory 的例子</a></li>
+                
+                    <li><a class="toctree-l4" href="#page-factory_1">Page Factory 实现的原理</a></li>
+                
+                    <li><a class="toctree-l4" href="#page-factory_2">Page Factory 有什么好处</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../random_data/">随机数据</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../data_construct_by_context/">动态测试数据构建</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../code_review_1/">代码检查-重复数据库访问</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Git</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../git/git_basic/">Git 基础</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">自动化测试</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Tips &raquo;</li>
+        
+      
+    
+    <li>Page Factory 模式原理</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="selenium-page-factory">Selenium Page Factory 模式分析</h1>
+<p>本文主要用来分析Page Factory实现的原理以及一些扩展的可能性。</p>
+<h2 id="page-factory">Page Factory 的例子</h2>
+<p><a href="https://code.google.com/p/selenium/wiki/PageFactory">Selenium Page Factory Wiki</a></p>
+<p>首先解释一下这个例子：</p>
+<ul>
+<li>使用注解描述元素定位</li>
+<li>使用 <code>PageFactory.initElements(driver, page);</code></li>
+</ul>
+<pre><code class="java">public class GoogleSearchPage {
+    // The element is now looked up using the name attribute
+    @FindBy(how = How.NAME, using = &quot;q&quot;)
+    private WebElement searchBox;
+
+    public void searchFor(String text) {
+        // We continue using the element just as before
+        searchBox.sendKeys(text);
+        searchBox.submit();
+    }
+
+    public void searchFor(String text) {
+    GoogleSearchPage page＝ PageFactory.initElements(new ChromeDriver(), GoogleSearchPage.class);
+    }
+}
+</code></pre>
+
+<p>以上一个显而易见的好处就是减少了查找元素的代码量，比如类似于一下的代码：</p>
+<pre><code class="java">  driver.findElement(By.id(&quot;q&quot;))
+</code></pre>
+
+<p>但是只有这样的好处吗？我们先从分析Selenium Page Factory实现的原理说起</p>
+<h2 id="page-factory_1">Page Factory 实现的原理</h2>
+<p>PageFactory 是使用反射(Reflection)和动态代理(dynamic proxies)的方式来创建页面的每
+每个元素:</p>
+<ul>
+<li>PageFactory: initElements and proxyFields</li>
+</ul>
+<pre><code class="java">public static void initElements(FieldDecorator decorator, Object page) {
+    for(Class proxyIn = page.getClass(); proxyIn != Object.class; proxyIn = proxyIn.getSuperclass()) {
+        proxyFields(decorator, page, proxyIn);
+    }
+
+}
+
+private static void proxyFields(FieldDecorator decorator, Object page, Class&lt;?&gt; proxyIn) {
+    Field[] fields = proxyIn.getDeclaredFields();
+    Field[] arr$ = fields;
+    int len$ = fields.length;
+
+    for(int i$ = 0; i$ &lt; len$; ++i$) {
+        Field field = arr$[i$];
+        Object value = decorator.decorate(page.getClass().getClassLoader(), field);
+        if(value != null) {
+            try {
+                field.setAccessible(true);
+                field.set(page, value);
+            } catch (IllegalAccessException var10) {
+                throw new RuntimeException(var10);
+            }
+        }
+    }
+
+}
+</code></pre>
+
+<ul>
+<li>FieldDecorator：DefaultFieldDecorator 源码
+从DefaultFieldDecorator的源码看:</li>
+<li>实现decorate方法,WebElement 和List<WebElement> 都是通过proxy的方式创建的</li>
+<li>每个Proxy的方式都有一个对应的invocationHandler处理
+   Selenium的源码有两个invocationHandler：</li>
+<li>LocatingElementHandler</li>
+<li>LocatingElementListHandler</li>
+</ul>
+<pre><code class="java">public Object decorate(ClassLoader loader, Field field) {
+        if(!WebElement.class.isAssignableFrom(field.getType()) &amp;&amp; !this.isDecoratableList(field)) {
+            return null;
+        } else {
+            ElementLocator locator = this.factory.createLocator(field);
+            return locator == null?null:(WebElement.class.isAssignableFrom(field.getType())?this.proxyForLocator(loader, locator):(List.class.isAssignableFrom(field.getType())?this.proxyForListLocator(loader, locator):null));
+        }
+    }
+
+    private boolean isDecoratableList(Field field) {
+        if(!List.class.isAssignableFrom(field.getType())) {
+            return false;
+        } else {
+            Type genericType = field.getGenericType();
+            if(!(genericType instanceof ParameterizedType)) {
+                return false;
+            } else {
+                Type listType = ((ParameterizedType)genericType).getActualTypeArguments()[0];
+                return !WebElement.class.equals(listType)?false:field.getAnnotation(FindBy.class) != null || field.getAnnotation(FindBys.class) != null || field.getAnnotation(FindAll.class) != null;
+            }
+        }
+    }
+
+    protected WebElement proxyForLocator(ClassLoader loader, ElementLocator locator) {
+        LocatingElementHandler handler = new LocatingElementHandler(locator);
+        WebElement proxy = (WebElement)Proxy.newProxyInstance(loader, new Class[]{WebElement.class, WrapsElement.class, Locatable.class}, handler);
+        return proxy;
+    }
+
+    protected List&lt;WebElement&gt; proxyForListLocator(ClassLoader loader, ElementLocator locator) {
+        LocatingElementListHandler handler = new LocatingElementListHandler(locator);
+        List proxy = (List)Proxy.newProxyInstance(loader, new Class[]{List.class}, handler);
+        return proxy;
+    }
+</code></pre>
+
+<p>我们再看一下LocatingElementHandler,可以看到实际在待用PageFactory创建的元素时候
+都是通过这个掉用LocatingElementHandler</p>
+<pre><code class="java">public class LocatingElementHandler implements InvocationHandler {
+    private final ElementLocator locator;
+
+    public LocatingElementHandler(ElementLocator locator) {
+        this.locator = locator;
+    }
+
+    public Object invoke(Object object, Method method, Object[] objects) throws Throwable {
+        WebElement element;
+        try {
+            element = this.locator.findElement();
+        } catch (NoSuchElementException var7) {
+            if(&quot;toString&quot;.equals(method.getName())) {
+                return &quot;Proxy element for: &quot; + this.locator.toString();
+            }
+
+            throw var7;
+        }
+
+        if(&quot;getWrappedElement&quot;.equals(method.getName())) {
+            return element;
+        } else {
+            try {
+                return method.invoke(element, objects);
+            } catch (InvocationTargetException var6) {
+                throw var6.getCause();
+            }
+        }
+    }
+}
+</code></pre>
+
+<p>以上Selenium PageFactory大致的实现，从过程来看：
+PageFaction-&gt; initElements-&gt; proxyFields</p>
+<h2 id="page-factory_2">Page Factory 有什么好处</h2>
+<p>个人理解的好处:</p>
+<ul>
+<li>可以通过修改InvocationHandler里面的处理,比如
+  <code>java
+  element = this.locator.findElement();</code>
+  如果都使用wait().util的方式,这样可以使所有查找的元素更加稳定</li>
+<li>使用了proxy的方式,在实例化WebElement的时候，实际上不管WebElement存在不存在都可以创建
+   而实际findElement都会延迟到真的调用这个元素时执行,这带来一个好处就是如果WebElement的实例创建后
+   页面DOM刷新后,需要重新查找WebElement,否则可能抛出StaleElementReferenceException,而Proxy之后每次都会自动
+   查找,这样就减少了代码处理</li>
+<li>工厂的设计模式同时也带了了灵活程度,在创建页面或者页面元素的时候,可以开始添加统一的前置或者后置的处理</li>
+</ul>
+<p>但是可惜的是Selenium并没有提供开发的接口来让用户定制,所以如果自己定制PageFactory模式,则需要自己去实现Selenium这
+一套方法,同时加入自己特殊的实现</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../random_data/" class="btn btn-neutral float-right" title="随机数据"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../simplest_testngreport/" class="btn btn-neutral" title="TestNG 定制报表简单原理"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../simplest_testngreport/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../random_data/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

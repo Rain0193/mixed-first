@@ -1,0 +1,15 @@
+<suite name="测试用例集测试2" parallel="methods" thread-count="4">
+    <listeners>
+        <listener class-name="io.ift.automation.listener.testng.SimpleRetryListener" />
+     <listener class-name="io.ift.automation.listener.testng.SimpleWebDriverScreenShotTestListener"/>
+    </listeners>
+
+    <test verbose="1" name="dooioo-automation" >
+        <classes>
+            <class name="io.ift.automation.drivers.DriverFactoryTest2"/>
+            <class name="io.ift.automation.drivers.DriverFactoryTest"/>
+            <class name="io.ift.automation.drivers.BrowserTypeTest"/>
+            <class name="io.ift.automation.drivers.WebDriverModeTest"/>
+        </classes>
+    </test>
+</suite>

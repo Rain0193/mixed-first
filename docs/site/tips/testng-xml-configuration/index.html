@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>TestNG 测试XML配置 - 自动化测试</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+
+  
+  <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "TestNG 测试XML配置";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> 自动化测试</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">主页</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>QuickStart</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/project_structure/">项目结构和配置</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../steps/steps_configuration/">项目结构和配置－步骤</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../properties/properties_intro/">配置文件说明</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../selenium_in_a_wild_way/">WEB页面自动化-SELENIUM管理页面元素</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/webui_automation_quickstart/">WEB页面自动化-开始</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/webui_automation_realexample/">WEB页面自动化-真实用例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/api_testing_qa/">API 自动化测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_defined_employees/">工作流测试之指定审批节点</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_dynamic/">工作流测试之动态审批节点</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>自动化测试模块介绍</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-purpose/">目的</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-framework-impl/">基本模块的作用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/self_defined_elements/">页面自动化-页面元素的使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/element_handler/">页面自动化-页面元素方法查询</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/pageobject_codegenerator/">页面自动化-页面代码生成</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/build_test/">页面自动化-WebTestActionBuilder</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>接口自动化测试</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/web接口测试/">接口测试－WEB接口常见的实现方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/API自动化测试-进阶/">API自动化测试-进阶</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Tips</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../WebTest_Debug/">WebUI Debug</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../find_by_ref/">FindByRef annotation  使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/verification_annotation/">verification 注解使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../jmeter_basic/">JMeter使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/code_style/">JAVA 自动化测试代码规范</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/simple_ui_case/">一个简单测试用例的自动化实例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../database/Database/">数据库操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">TestNG 测试XML配置</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#testng-xml">TestNG XML 测试配置方法介绍</a></li>
+                
+                    <li><a class="toctree-l4" href="#_1">上述的配置得测试报告</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../use_own_password/">使用自己的用户名和密码获取万能密码</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../JsonHelper/">JSON处理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../page_object/">Page Object/Page Factory</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../TreeElement/">TreeElement 使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../WebDriverHelper/">添加了Expectation的WebDriver操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../WebDriver操作/">WebDriver原生操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../how_to_write_teststeps/">编写测试步骤的不同方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../repeatable_elements/">重复填写控件使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../StateElementReferneceException/">StateElementReferneceException</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../DateHelper/">DateHelper</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../database_assetion/">数据库验证</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../database_update/">预设条件数据的更新和回滚</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../testng_faq/">TestNG测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../simplest_testngreport/">TestNG 定制报表简单原理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../PageFactory/">Page Factory 模式原理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../random_data/">随机数据</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../data_construct_by_context/">动态测试数据构建</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../code_review_1/">代码检查-重复数据库访问</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Git</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../git/git_basic/">Git 基础</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">自动化测试</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Tips &raquo;</li>
+        
+      
+    
+    <li>TestNG 测试XML配置</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="testng-xml">TestNG XML 测试配置方法介绍</h1>
+<p>TestNG XMl测试配置方法,可以简单的配置测试,也可以将一个testng文件配置加到另外一个testng文件了.</p>
+<p>配置实例:</p>
+<pre><code>&lt;suite name=&quot;测试用例集测试&quot;&gt;
+    &lt;listeners&gt;
+        &lt;listener class-name=&quot;com.dooioo.automation.listener.testng.SimpleWebDriverScreenShotTestListener&quot;/&gt;
+    &lt;/listeners&gt;
+    &lt;suite-files&gt;
+        &lt;suite-file path=&quot;testng-test1.xml&quot;/&gt;
+        &lt;suite-file path=&quot;testng-test_sample.xml&quot;&gt;&lt;/suite-file&gt;
+    &lt;/suite-files&gt;
+    &lt;test verbose=&quot;1&quot; name=&quot;dooioo-automation&quot;&gt;
+        &lt;classes&gt;
+            &lt;class name=&quot;com.dooioo.automation.commonflows.DooiooLoginHelperTest&quot;&gt;&lt;/class&gt;
+            &lt;class name=&quot;com.dooioo.automation.testscaffold.TestActionTest&quot;/&gt;
+            &lt;class name=&quot;com.dooioo.automation.testscaffold.WhereTest&quot;/&gt;
+            &lt;class name=&quot;com.dooioo.automation.drivers.DriverFactoryTest2&quot;/&gt;
+            &lt;class name=&quot;com.dooioo.automation.drivers.DriverFactoryTest&quot;/&gt;
+            &lt;class name=&quot;com.dooioo.automation.drivers.BrowserTypeTest&quot;/&gt;
+            &lt;class name=&quot;com.dooioo.automation.drivers.WebDriverModeTest&quot;/&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+&lt;/suite&gt;
+
+</code></pre>
+
+<ul>
+<li>testng-test1.xml 是另外一个testng 配置文件</li>
+</ul>
+<pre><code>&lt;suite name=&quot;测试用例集测试1&quot; &gt;
+    &lt;listeners&gt;
+        &lt;listener class-name=&quot;com.dooioo.automation.listener.testng.SimpleRetryListener&quot; /&gt;
+     &lt;listener class-name=&quot;com.dooioo.automation.listener.testng.SimpleWebDriverScreenShotTestListener&quot;/&gt;
+    &lt;/listeners&gt;
+
+    &lt;test verbose=&quot;1&quot; name=&quot;dooioo-automation&quot;&gt;
+        &lt;classes&gt;
+            &lt;class name=&quot;com.dooioo.automation.drivers.DriverFactoryTest_Concurrency&quot;&gt;
+            &lt;/class&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+&lt;/suite&gt;
+
+</code></pre>
+
+<h2 id="_1">上述的配置得测试报告</h2>
+<p>不同的TestSuite会分开显示</p>
+<p><img alt="img" src="../../pics/test_result_new.jpg" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../use_own_password/" class="btn btn-neutral float-right" title="使用自己的用户名和密码获取万能密码"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../database/Database/" class="btn btn-neutral" title="数据库操作"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../database/Database/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../use_own_password/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

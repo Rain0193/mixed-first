@@ -1,0 +1,7 @@
+@startuml
+API -> HttpServiceProcessor: new instance
+HttpServiceProcessor--> ServiceDescription:build
+ServiceDescription -> HttpServiceProcessor:loadServiceDescriptionFromFile
+HttpServiceProcessor <-- HttpServiceProcessor: buildRequest
+HttpServiceProcessor -> API: execute
+@enduml

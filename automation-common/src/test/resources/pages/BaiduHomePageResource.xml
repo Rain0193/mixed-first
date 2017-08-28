@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <keyword_1 desc="keyword">id="kw"
+    </keyword_1>
+    <keyword desc="keyword">
+        id="kw"
+    </keyword>
+    <submit_1 desc="submit">id="su"</submit_1>
+    <voiceRec_1 desc="voice rec">.ipt_rec</voiceRec_1>
+</root>
