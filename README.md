@@ -74,13 +74,4 @@ sh deploy.sh
  sh svn_git_submit.sh "your-comments"
 ```
 
-## restart the doc server
-
-QA document server:ssh to jenkins server 192.168.3.53
-
-```shell
-cd /usr/share/nginx/html
-git pull
-nginx -s reload # if nginx is running, start the nginx 
-```
 
