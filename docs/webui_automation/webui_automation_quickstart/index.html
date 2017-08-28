@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>WEB页面自动化-开始 - 自动化测试</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+
+  
+  <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "WEB页面自动化-开始";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> 自动化测试</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">主页</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>QuickStart</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../project_structure/">项目结构和配置</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/selenium_in_a_wild_way/">WEB页面自动化-SELENIUM管理页面元素</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">WEB页面自动化-开始</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#0">0.简单示例</a></li>
+                
+                    <li><a class="toctree-l4" href="#1-page-object">1. 创建Page Object</a></li>
+                
+                    <li><a class="toctree-l4" href="#12-pageobject">1.2 创建页面类(PageObject)</a></li>
+                
+                    <li><a class="toctree-l4" href="#2">2.创建注解和测试流程类</a></li>
+                
+                    <li><a class="toctree-l4" href="#21">2.1 生成注解</a></li>
+                
+                    <li><a class="toctree-l4" href="#22">2.2 生成流程测试代码</a></li>
+                
+                    <li><a class="toctree-l4" href="#3">3. 创建测试数据类</a></li>
+                
+                    <li><a class="toctree-l4" href="#4">4. 构建测试用例类</a></li>
+                
+                    <li><a class="toctree-l4" href="#41-excel">4.1 构建测试用例EXCEL</a></li>
+                
+                    <li><a class="toctree-l4" href="#5">5. 运行测试用例</a></li>
+                
+                    <li><a class="toctree-l4" href="#6-testngxml">6. 配置测试使用testng的xml文件</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../webui_automation_realexample/">WEB页面自动化-真实用例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/api_testing_qa/">API 自动化测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_defined_employees/">工作流测试之指定审批节点</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_dynamic/">工作流测试之动态审批节点</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>自动化测试模块介绍</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-purpose/">目的</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-framework-impl/">基本模块的作用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../self_defined_elements/">页面自动化-页面元素的使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../element_handler/">页面自动化-页面元素方法查询</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../pageobject_codegenerator/">页面自动化-页面代码生成</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../build_test/">页面自动化-WebTestActionBuilder</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>接口自动化测试</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/web接口测试/">接口测试－WEB接口常见的实现方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/API自动化测试-进阶/">API自动化测试-进阶</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Tips</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/WebTest_Debug/">WebUI Debug</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/find_by_ref/">FindByRef annotation  使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/verification_annotation/">verification 注解使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/code_style/">JAVA 自动化测试代码规范</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/simple_ui_case/">一个简单测试用例的自动化实例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../database/Database/">数据库操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/testng-xml-configuration/">TestNG 测试XML配置</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/use_own_password/">使用自己的用户名和密码获取万能密码</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/JsonHelper/">JSON处理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/page_object/">Page Object/Page Factory</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/TreeElement/">TreeElement 使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/WebDriverHelper/">添加了Expectation的WebDriver操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/WebDriver操作/">WebDriver原生操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/how_to_write_teststeps/">编写测试步骤的不同方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/repeatable_elements/">重复填写控件使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/StateElementReferneceException/">StateElementReferneceException</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/DateHelper/">DateHelper</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/database_assetion/">数据库验证</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/database_update/">预设条件数据的更新和回滚</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/testng_faq/">TestNG测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/simplest_testngreport/">TestNG 定制报表简单原理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/PageFactory/">Page Factory 模式原理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/random_data/">随机数据</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/data_construct_by_context/">动态测试数据构建</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Git</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../git/git_basic/">Git 基础</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">自动化测试</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>QuickStart &raquo;</li>
+        
+      
+    
+    <li>WEB页面自动化-开始</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="0">0.简单示例</h1>
+<p>以下展示一个WebUI测试从头到尾的一个过程：</p>
+<ul>
+<li>解析页面元素创建PageObject</li>
+<li>自动生成annotation 或者测试代码</li>
+<li>测试数据准备</li>
+<li>测试用例准备</li>
+<li>测试配置准备</li>
+<li>编写检查点</li>
+<li>执行和debug</li>
+<li>扩展测试数据</li>
+</ul>
+<p>让我们动起手来,不过为了简单的描述测试的思路,还是从使用Baidu查询的例子开始,同时这个章节的目的是让你熟悉一个自动化包含那些内容
+,以及每个内容需要做什么怎么做</p>
+<ul>
+<li>页面</li>
+<li>测试数据</li>
+<li>流程</li>
+<li>测试类</li>
+</ul>
+<h2 id="1-page-object">1. 创建Page Object</h2>
+<p>Page Object是用来存放被测页面元素说明的一个类，它就是对应了一个被测页面涉及到元素的一个模型，放在一个类里的好处是便于复用和包装，不用把如何查找页面元素的代码散落各处，同时在封装后使用，上层的测试用例级别的代码基本不会和这块再打交道，而是专注于什么样的业务流程。下面是一个使用辅助工具来进行解析页面元素创建Page Object 类的过程的说明。</p>
+<h3 id="11">1.1 解析页面元素:其实就是一个录制的过程</h3>
+<p>给页面元素定位非常花费时间，所以录制是一个不错的策略，不同的是这里的工具是解析页面html 源码，来得到我们想要的Page Object 类的格式。这些辅助工具还不能完全你把所有元素都非常好识别，但是还是可以起到一定程度提高效率。
+那么为什么自己写一个征用的工具呢？一个原因是没有太好的工具可以非常智能的完成这个任务，另外一个是使用JSOUP这样的工具写一些起到作用的工具不难(当然如果要完全解析正确很难).关于如何解析页面元素会在页面解析说明部分做详细解释.</p>
+<p>已Baidu的首页为例:
+<img alt="img" src="../../pics/baidu_home.jpg" /></p>
+<p>可以看到我们主要需要测试的部分是上图中标示部分,所以我们需要</p>
+<ul>
+<li>将页面中标示部分的HTMl源码取出</li>
+<li>然后复制到main/resources 目录下的source.txt文件</li>
+<li>运行如下的代码</li>
+</ul>
+<pre><code class="java">public class CodeGenerator {
+    public static void main(String[] args) {
+        WebUICodeGenerator.build().generatePageObjectClass(&quot;source.txt&quot;);
+    }
+}
+</code></pre>
+
+<p>得到如下的结果:</p>
+<pre><code class="java">@FindBy(id=&quot;su&quot;)
+@ElementName(elementName = &quot;su&quot;)
+private Button su;
+@FindBy(linkText=&quot;手写&quot;)
+@ElementName(elementName = &quot;手写&quot;)
+private Link 手写;
+@FindBy(linkText=&quot;拼音&quot;)
+@ElementName(elementName = &quot;拼音&quot;)
+private Link 拼音;
+@FindBy(linkText=&quot;关闭&quot;)
+@ElementName(elementName = &quot;关闭&quot;)
+private Link 关闭;
+@FindBy(name=&quot;wd&quot;)
+@ElementName(elementName = &quot;wd&quot;)
+private InputBox wd;
+</code></pre>
+
+<h2 id="12-pageobject">1.2 创建页面类(PageObject)</h2>
+<p>如果没有有明显的错误就根据如下结果创建页面类:</p>
+<pre><code class="java">public class BaiDuPage extends ExecutablePageObject {
+    public BaiDuPage(WebDriver driver) {
+        super(driver);
+    }
+
+    @FindBy(id = &quot;su&quot;)
+    @ElementName(elementName = &quot;su&quot;)
+    private Button su;
+    @FindBy(linkText = &quot;手写&quot;)
+    @ElementName(elementName = &quot;手写&quot;)
+    private Link 手写;
+    @FindBy(linkText = &quot;拼音&quot;)
+    @ElementName(elementName = &quot;拼音&quot;)
+    private Link 拼音;
+    @FindBy(linkText = &quot;关闭&quot;)
+    @ElementName(elementName = &quot;关闭&quot;)
+    private Link 关闭;
+    @FindBy(name = &quot;wd&quot;)
+    @ElementName(elementName = &quot;wd&quot;)
+    private InputBox wd;
+    --- 自动生成的getter/setter
+ }   
+</code></pre>
+
+<p>至此页面类就做好了.</p>
+<p><em>ps: 构造方法和getter/setter方法都可以通过IDE自动生成的</em></p>
+<h2 id="2">2.创建注解和测试流程类</h2>
+<p>假设我们想要测试的是:输入关键字,直接搜索这样一个业务,那么我们需要一些标示这个测试流程的一些方法类支撑,
+以下是如何构建的一个过程,分为:</p>
+<ul>
+<li>创建流程注解</li>
+<li>编写流程程序</li>
+</ul>
+<h2 id="21">2.1 生成注解</h2>
+<p>运行如下代码就可以生成注解:</p>
+<pre><code class="java">public class CodeGenerator {
+    public static void main(String[] args) {
+        WebUICodeGenerator.build().generateAnnotationStatement(&quot;Baidu Search&quot;, BaiDuPage.class);
+    }
+}
+</code></pre>
+
+<p>得到结果如下,把他复制到刚才创建好的页面类里面,同时添加最后的提交按钮到elementActionDescription里面:</p>
+<pre><code class="java">@UIActions(actions={@UIAction(processName=&quot;BaiduSearch&quot;,elementActionDescription={&quot;wd&quot;})
+})
+</code></pre>
+
+<p>新的页面类:</p>
+<pre><code class="java">@UIActions(actions={@UIAction(processName=&quot;BaiduSearch&quot;,elementActionDescription={&quot;wd&quot;,&quot;su&quot;})
+})
+</code></pre>
+
+<p>这里解释以下elementActionDescription, 这个放的内容是你执行整个业务流程需要操作的哪些WEB的元素,这个例子里面就是一个关键字框
+,一个提交按钮.</p>
+<p>如果有其他的业务流程需要测试,可以在添加@UIAction.</p>
+<h2 id="22">2.2 生成流程测试代码</h2>
+<pre><code class="java">public class CodeGenerator {
+    public static void main(String[] args) {
+        WebUICodeGenerator.build().generateFlowCodesForAnnotatedPage(&quot;Baidu Search&quot;,BaiDuPage.class);
+    }
+}
+</code></pre>
+
+<p>得到结果:</p>
+<pre><code class="java">
+public static void BaiduSearch(WebDriver driver,TestData testData){
+ WebTestActionBuilder.execute(Lists.newArrayList(
+                BaiDuPage.class)
+        ,&quot;Baidu Search&quot;,driver,testData);
+}
+
+</code></pre>
+
+<p>创建一个关于搜索的测试类</p>
+<pre><code class="java">
+public class BaiduSearchFlow {
+
+    public static void BaiDuSearch(WebDriver driver,TestData testData){
+        WebTestActionBuilder.execute(Lists.newArrayList(
+                BaiDuPage.class)
+                , &quot;BaiDu Search&quot;, driver, testData);
+    }
+}
+</code></pre>
+
+<p>以上步骤可以通过一步实现:</p>
+<pre><code class="java">public class CodeGenerator {
+    public static void main(String[] args) {
+        WebUICodeGenerator.build().generateAnnotationAndFlowCode(&quot;BaiDuSearch&quot;,BaiDuPage.class);
+    }
+}
+</code></pre>
+
+<p>结果就是:</p>
+<pre><code class="java">-- Class Name:BaiDuPage
+@UIActions(actions={@UIAction(processName=&quot;BaiDu Search&quot;,elementActionDescription={&quot;wd&quot;})
+})
+
+
+public static void baiDuSearch(WebDriver driver,TestData testData){
+ WebTestActionBuilder.execute(Lists.newArrayList(
+                BaiDuPage.class)
+        ,&quot;BaiDu Search&quot;,driver,testData);
+}
+</code></pre>
+
+<p>获取以上代码之后:
+1. 复制@UIActions到Page类
+2. 创建新的类,然后复制方法baiDuSearch到这个类里面</p>
+<p>至此测试流程就好了,如果在页面涉及的元素不多的情况下,这样做就有点啰嗦,不过如果页面元素比较多的情况下,这样就相对
+会方便一点.</p>
+<h2 id="3">3. 创建测试数据类</h2>
+<p>根据页面模型类生成测试数据:</p>
+<pre><code class="java">public class CodeGenerator {
+    public static void main(String[] args) {
+        WebUICodeGenerator.build().generateTestDataClass(BaiDuPage.class);
+    }
+}
+</code></pre>
+
+<p>得到结果:</p>
+<pre><code class="java">private String wd;
+</code></pre>
+
+<p>创建测试数据类(需要继承TestData类)用来做数据驱动:</p>
+<pre><code class="java">
+public class BaiduSearchData extends TestData {
+    private String wd;
+
+    public String getWd() {
+        return wd;
+    }
+
+    public void setWd(String wd) {
+        this.wd = wd;
+    }
+}
+</code></pre>
+
+<h2 id="4">4. 构建测试用例类</h2>
+<p>在test目录下面的flows目录创建测试类:</p>
+<pre><code class="java">public class BaiduSearchFlowTest extends BaseWebCurrencyTest{
+
+    @DataProvider(name = &quot;search_data&quot;)
+    public Iterator&lt;Object[]&gt; getTestData(Method m) throws Exception{
+        Map&lt;String, Class&gt; clazzMap = new HashMap&lt;String, Class&gt;();
+        clazzMap.put(&quot;SearchData&quot;, BaiduSearchData.class);
+        clazzMap.put(&quot;TestDescription&quot;, TestDescription.class);
+        Iterator&lt;Object[]&gt; y = TestDescription.filterByMethod(&quot;testcase/flows/BaiduSearchTestCases.xls&quot;, m, clazzMap);
+        return y;
+    }
+
+    @Test(dataProvider = &quot;search_data&quot;,description = &quot;百度搜索&quot;)
+    public void search_test(BaiduSearchData searchData,
+                             TestDescription td) throws Exception {
+        WebDriverHelper.get(DriverFactory.get(),&quot;http://www.baidu.com&quot;);
+       BaiduSearchFlow.BaiDuSearch(DriverFactory.get(),searchData);
+    }
+}
+</code></pre>
+
+<p>这里面有一些TestNG的注解:</p>
+<ul>
+<li>DataProvider : 提供数据驱动的数据源</li>
+<li>Test: 表明方法或者类是用来测试的</li>
+</ul>
+<h2 id="41-excel">4.1 构建测试用例EXCEL</h2>
+<p>在<code>TestDescription.filterByMethod</code> 方法指定的目录里面创建一个Excel文件.文件格式如下:</p>
+<p><img alt="img" src="../../pics/BaiduSearchTestCases.jpg" /></p>
+<p>图中标示的部分需要填写你测试方法名字,search.wd实际上就是你的测试数据,如图所示的文件,标示两个搜索用例,
+一个是搜索123,一个搜索345</p>
+<h2 id="5">5. 运行测试用例</h2>
+<p>理想情况下,运行测试用例文件,测试就可以跑起来了.</p>
+<h2 id="6-testngxml">6. 配置测试使用testng的xml文件</h2>
+<pre><code class="xml">&lt;suite name=&quot;BaiDu Search&quot;&gt;
+    &lt;listeners&gt;
+     &lt;listener class-name=&quot;com.dooioo.automation.listener.testng.SimpleWebDriverScreenShotTestListener&quot;/&gt;
+    &lt;/listeners&gt;
+    &lt;test verbose=&quot;1&quot; name=&quot;baidu search&quot; &gt;
+        &lt;classes&gt;
+            &lt;class name=&quot;com.dooioo.automation.flows.BaiduSearchFlowTest&quot;/&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+
+&lt;/suite&gt;
+</code></pre>
+
+<p>直接运行这个文件就可以驱动程序了.</p>
+<p>至此一个自动化的程序就好了(检查点还没有加),如果不同的测试数据代表你的不同测试用例了.总结以上的步骤:</p>
+<ul>
+<li>常见页面类</li>
+<li>创建操作方法</li>
+<li>创建测试数据</li>
+<li>构建测试用例类</li>
+<li>创建测试用例</li>
+<li>配置testngfile,运行测试</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../webui_automation_realexample/" class="btn btn-neutral float-right" title="WEB页面自动化-真实用例"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../tips/selenium_in_a_wild_way/" class="btn btn-neutral" title="WEB页面自动化-SELENIUM管理页面元素"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../tips/selenium_in_a_wild_way/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../webui_automation_realexample/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

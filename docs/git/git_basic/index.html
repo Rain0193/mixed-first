@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Git 基础 - 自动化测试</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+
+  
+  <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Git 基础";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> 自动化测试</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">主页</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>QuickStart</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/project_structure/">项目结构和配置</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/selenium_in_a_wild_way/">WEB页面自动化-SELENIUM管理页面元素</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/webui_automation_quickstart/">WEB页面自动化-开始</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/webui_automation_realexample/">WEB页面自动化-真实用例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/api_testing_qa/">API 自动化测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_defined_employees/">工作流测试之指定审批节点</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../activity_automation/activity_automation_dynamic/">工作流测试之动态审批节点</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>自动化测试模块介绍</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-purpose/">目的</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../intro/automation-framework-impl/">基本模块的作用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/self_defined_elements/">页面自动化-页面元素的使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/element_handler/">页面自动化-页面元素方法查询</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/pageobject_codegenerator/">页面自动化-页面代码生成</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../webui_automation/build_test/">页面自动化-WebTestActionBuilder</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>接口自动化测试</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/web接口测试/">接口测试－WEB接口常见的实现方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/APIAutomation/">API 自动化测试</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../api_automation/API自动化测试-进阶/">API自动化测试-进阶</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Tips</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/WebTest_Debug/">WebUI Debug</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/find_by_ref/">FindByRef annotation  使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/verification_annotation/">verification 注解使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/code_style/">JAVA 自动化测试代码规范</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../best_practice/simple_ui_case/">一个简单测试用例的自动化实例</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../database/Database/">数据库操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/testng-xml-configuration/">TestNG 测试XML配置</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/use_own_password/">使用自己的用户名和密码获取万能密码</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/JsonHelper/">JSON处理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/page_object/">Page Object/Page Factory</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/TreeElement/">TreeElement 使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/WebDriverHelper/">添加了Expectation的WebDriver操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/WebDriver操作/">WebDriver原生操作</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/how_to_write_teststeps/">编写测试步骤的不同方法</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/repeatable_elements/">重复填写控件使用</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/StateElementReferneceException/">StateElementReferneceException</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/DateHelper/">DateHelper</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/database_assetion/">数据库验证</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/database_update/">预设条件数据的更新和回滚</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/testng_faq/">TestNG测试常见问题</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/simplest_testngreport/">TestNG 定制报表简单原理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/PageFactory/">Page Factory 模式原理</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/random_data/">随机数据</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../tips/data_construct_by_context/">动态测试数据构建</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Git</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Git 基础</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#git">Git 使用基础</a></li>
+                
+                    <li><a class="toctree-l4" href="#git_1">Git 配置</a></li>
+                
+                    <li><a class="toctree-l4" href="#_1">创建版本库</a></li>
+                
+                    <li><a class="toctree-l4" href="#_2">提交改动</a></li>
+                
+                    <li><a class="toctree-l4" href="#_3">查看当前仓库状态</a></li>
+                
+                    <li><a class="toctree-l4" href="#git_2">查看git 日志</a></li>
+                
+                    <li><a class="toctree-l4" href="#git_3">回滚git的提交</a></li>
+                
+                    <li><a class="toctree-l4" href="#git-workspacestagehead">git workspace，stage，head</a></li>
+                
+                    <li><a class="toctree-l4" href="#git-checkout">git checkout</a></li>
+                
+                    <li><a class="toctree-l4" href="#_4">远程仓库</a></li>
+                
+                    <li><a class="toctree-l4" href="#_5">分支管理</a></li>
+                
+                    <li><a class="toctree-l4" href="#_6">解决冲突</a></li>
+                
+                    <li><a class="toctree-l4" href="#-fastforward">合并分支- 不使用fastforward</a></li>
+                
+                    <li><a class="toctree-l4" href="#git-tag">Git Tag标签管理</a></li>
+                
+                    <li><a class="toctree-l4" href="#git_4">Git 配置</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">自动化测试</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Git &raquo;</li>
+        
+      
+    
+    <li>Git 基础</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="git">Git 使用基础</h1>
+<p>git是个分布式版本控制系统，所谓分布式版本控制就是任何一个在自己其实上就可以进行版本控制管理而无需连接中央服务器，这样提交代码就无需收到联网的限制。同时GIT提供了更好的branch等功能，也是目前最流行的工具.</p>
+<h2 id="git_1">Git 配置</h2>
+<p>全局变量设置：</p>
+<pre><code class="sh">git config --global user.name &quot;Your name&quot;
+git config --global user.email &quot;emailname@example.com&quot;
+</code></pre>
+
+<h2 id="_1">创建版本库</h2>
+<pre><code class="sh">//不是必须在空目录中使用git init命令
+git init
+</code></pre>
+
+<p>建立成功之后，当前目录会多一个.git目录，有些代码库很大，其实大的就是这个.git文件夹</p>
+<h2 id="_2">提交改动</h2>
+<pre><code class="sh">git add .
+git commit . -m &quot;add new changes&quot;
+
+</code></pre>
+
+<h2 id="_3">查看当前仓库状态</h2>
+<p>查看当前仓库状态的命令：</p>
+<pre><code class="sh">git status
+</code></pre>
+
+<h2 id="git_2">查看git 日志</h2>
+<pre><code class="sh">git log
+git log --pretty=oneline
+</code></pre>
+
+<h2 id="git_3">回滚git的提交</h2>
+<pre><code class="sh">git rest --hard
+git rest --hard XXXXX-changeId
+</code></pre>
+
+<h2 id="git-workspacestagehead">git workspace，stage，head</h2>
+<p>git里面又工作区，版本库（stage），head，git add命令将改动放到stage，最后提交则提交到head</p>
+<h2 id="git-checkout">git checkout</h2>
+<pre><code class="sh">git checkout --file
+git checkout
+</code></pre>
+
+<h2 id="_4">远程仓库</h2>
+<p>创建远程仓库，以github为例，一般步骤是：</p>
+<ol>
+<li>github注册用户</li>
+<li>github创建一个仓库</li>
+</ol>
+<pre><code class="sh">ssh-keygen -t rsa -C &quot;emailaddrss&quot;
+git remote add origin &lt;github addrss&gt;
+git push -u origin master //关联远程仓库和本地仓库
+</code></pre>
+
+<p>多人合作模式，一般的工作流程如下：</p>
+<ol>
+<li>clone git Repository</li>
+<li>创建本地分支</li>
+<li>提交改动到远程相对应的分支</li>
+<li>解决冲突</li>
+<li>建立分支关系(如果出现 no tracking information就需要此步骤)</li>
+</ol>
+<p>以下是对应的命令：</p>
+<pre><code class="sh">git clone &lt;branch-path&gt;
+git checkout -b branch_name
+git push origin branch-name
+git branch --set-upstream branch-name origin/branch-name
+</code></pre>
+
+<h2 id="_5">分支管理</h2>
+<p>分支的实际作用，假设需要开发一个新的版本，需要两周完成，那么中间可能会提交不工作的代码，为了避免影响其他人，所以就开一个分支.
+不过现在有些公司提倡主干开发，直接在主干上开发，通过单元测试等等保证功能不会出现大问题。</p>
+<p>创建分支，创建分支时，也就是将当前head指向了新分支</p>
+<pre><code class="sh">//-b 就是创建一个新分支
+git checkout -b dev
+//创建分支但是不checkout
+git branch dev
+//查看branch 列表
+git branch
+</code></pre>
+
+<p>合并分支</p>
+<pre><code class="sh">//切换到主干
+git checkout master
+//合并分支
+git merge dev
+//删除dev 分支
+git branch -d dev
+</code></pre>
+
+<h2 id="_6">解决冲突</h2>
+<p>提交时发生冲突，需要手动修正</p>
+<pre><code class="sh">git log --graph  //查看分支合并图
+</code></pre>
+
+<h2 id="-fastforward">合并分支- 不使用fastforward</h2>
+<pre><code class="sh">git merge --no-ff -m &quot;merge with no-ff&quot;
+</code></pre>
+
+<p>bug 分支,可能某时需要紧急修改一个bug，但是当前又有没有测试
+这是可以使用git stash 保存当前工作情况</p>
+<pre><code class="sh">git stash
+</code></pre>
+
+<p>当修改完毕之后，恢复保存的内容,丢弃之前的内容都可以以下命令做到：</p>
+<pre><code class="sh"># list all stash info
+git stash list
+# 你也可以运行 git stash pop 来重新应用储藏，同时立刻将其从堆栈中移走
+git stash pop
+# 应用存储的内容
+git stash apply stash@{0}
+# 丢弃存储的内容
+git stash drop
+</code></pre>
+
+<h2 id="git-tag">Git Tag标签管理</h2>
+<pre><code class="sh">git tag v1.0
+git tag
+git tag v0.6 change_id
+git show v0.6
+git tag -s v0.2 //采用PGP签名
+</code></pre>
+
+<h2 id="git_4">Git 配置</h2>
+<pre><code class="sh">git config --global alias.lg &quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit&quot;
+</code></pre>
+
+<h5 id="git-cheat-sheet">git cheat-sheet</h5>
+<h6 id="configuration">configuration</h6>
+<pre><code class="sh">git config --global user.name &quot;&quot;
+git config --global user.email &quot;&quot;
+git config --global color.ui auto
+</code></pre>
+
+<h6 id="create-repositories">create repositories</h6>
+<pre><code class="sh">git init [project-name]
+git clone [url]
+</code></pre>
+
+<h6 id="make-changes">make changes</h6>
+<pre><code class="sh">git status  # list all new or modified files to be commited
+git diff  # show file differences not yet staged
+git add [file_name] #snapshots the file in preperation of versioning
+git diff --staged # show files dofferences between staging files and the last file version
+git reset [file] # unstages the files but preserve it content
+git commit -m &quot;descriptive comments&quot; #records the snapshot file permanently into version history
+</code></pre>
+
+<h6 id="group-changes">group changes</h6>
+<pre><code class="sh">git branch ## list all branches in local repository
+git branch [branch-name] # create new branch
+git checkout [branch-name] #switches to the specified branch
+git branch -d [branch-name] # delete the branch
+</code></pre>
+
+<h6 id="refactor-filenames">refactor filenames</h6>
+<pre><code class="sh">git rm [file] # remove file
+git rm --cached [file] # remove the files from version control but preservers the file locally
+git mv [original-file] [file-renamed]
+</code></pre>
+
+<h6 id="suppress-tracking">suppress tracking</h6>
+<pre><code class="sh">git ls-files --other --ignore --exclude-standard  
+#list all ignored fiels in this project
+</code></pre>
+
+<h6 id="save-fragment">save fragment</h6>
+<pre><code class="sh">git statsh # temporily stores all modified tracked files
+git stash pop # restores the most recently stashed files
+git stash list # list all stashed changesets
+git stash drop #discards the most recently stashed changeset
+
+</code></pre>
+
+<h6 id="review-history">review history</h6>
+<pre><code class="sh">git log #list version hsitory for the current branch
+git log --follow [file] # list version history for a file, include renames
+gut diff [first-branch]...[second branch]
+git show [commit]
+</code></pre>
+
+<h6 id="redo-commits">redo commits</h6>
+<pre><code class="sh">git reset # undoes all commits after commit
+git reset --hard # discard all history and changes back to specified commit
+</code></pre>
+
+<h6 id="synchronize-changes"># synchronize changes</h6>
+<pre><code class="sh">git fetch [bookmark] #downloads all history from the repository bookmark
+git merge [bookmark]/[branch] # combine into one
+git push [alias] [branch] # upload all local branch commits to github
+git pull # download bookmark history and incorporated changes
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../tips/data_construct_by_context/" class="btn btn-neutral" title="动态测试数据构建"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../tips/data_construct_by_context/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+
+</body>
+</html>
