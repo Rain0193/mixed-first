@@ -10,6 +10,9 @@
 
 *ps: 有些内容或者评论只是个人见解,不一定正确*
 
+if your like this site, please go to star the repo: [mix-first](https://github.com/ideasfortester/mixed-first)
+have fun!
+
 ## 基础知识
 
 * Java基础
@@ -29,3 +32,4 @@
  - [Selenium/WebDriver](https://github.com/fool2fish/selenium-doc/blob/master/official-site/selenium-web-driver.md)
 
 ![img](../pics/JAVA_BASIC.png)
+

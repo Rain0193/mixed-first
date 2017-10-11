@@ -1,6 +1,6 @@
 # release notes
 
-Not maintained anymore. 
+Not maintained anymore. The docs is in [here](https://ideasfortester.github.io/mixed-first/)
 
 This project have some interesting idea there. Make UI and API testing
 Annotation based.
@@ -11,9 +11,7 @@ then try to build something useful.
 
 ## 更新日志
 
-### 5-25 review board Tool 第一版
-
-### 10-19 Add to GitLab
+### 10-19 Add More Elements handlers 
 - 添加CheckBoxContainerElement
 - 添加TagElement
 - 添加RandomHelper.getNumAsString
